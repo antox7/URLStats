@@ -178,7 +178,4 @@ document.getElementById('fileUploadButton').onchange = function () {
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         });
     }
-
-
 }
-

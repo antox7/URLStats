@@ -14,16 +14,19 @@
 </head>
 
 <body>
-
-    <h2 style="text-align: center">URL History</h2>
-    <span class="middle">
-        <label>Upload File:</label>
-        <input type="file" name="file" id="fileUploadButton">
-    </span>
-
+    <div class="header-container">
+        <h1 class="header">URL History</h1>
+        <span class="middle">
+            <label for="fileUploadButton">
+                <div id='upload-text'>
+                    Upload Text File
+                </div>
+            </label>
+            <input id="fileUploadButton" type="file" />
+        </span>
+    </div>
     <div id="history"> </div>
     <div id="summary"> </div>
-
 
     <script src="index.js"></script>
     </div>
